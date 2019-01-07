@@ -1,0 +1,59 @@
+.Container{
+  width:85%;
+  margin: 0 auto;
+}
+
+.Catalogue{
+  border: 2px solid grey;
+  text-align: center;
+}
+
+
+.Category{
+  border: 2px solid #ccc;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+}
+
+.CategoryName{
+   background-color: green;
+}
+
+.CategoryItems{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+  
+}
+
+.Item{
+  background-color: #fff;
+  width:200px;
+  height:200px;
+  margin: 0.5em 1.5em;
+  background-color:#fff;
+  
+}
+
+.vertical-menu {
+  width: 50px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
