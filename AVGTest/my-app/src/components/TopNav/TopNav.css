@@ -1,0 +1,23 @@
+.Menu{
+   display:flex;
+   flex-direction: row;
+}
+
+.Nav_menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.Login{
+  display: flex;
+}
+.userpic{
+  width:50px;
+  height:50px;
+  border-radius: 50px;
+}
+.email{
+  display: block;
+}
+
+
