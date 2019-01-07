@@ -1,0 +1,19 @@
+.item{
+  border: 3px solid grey;
+  display:flex;
+  flex-direction: row;
+  margin: 10px 5px 0px 5px;
+}
+
+.poster{
+  width: 200px;    
+}
+.poster:hover{
+   cursor:pointer;
+}
+
+.content{
+  width:90%;
+  background-color: yellow;
+
+}
